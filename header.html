@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header In html and css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header {
+            height: 80px;
+            background: red;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            max-width: 100%;
+            width: 1300px;
+            margin: auto;
+            padding: 0 10px;
+            
+        }
+        #logo{
+            display: flex;
+            align-items: center;
+            height: 100%;
+    
+        }
+        #logo img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        #logo h2{
+            /* line-height: -10px; */
+            color: rgb(157, 157, 204);
+        }
+        ul{
+            display: flex;
+            width: 45%;
+            margin: 0 100px;
+            list-style: none;
+            max-width: 100%;
+
+        }
+        ul li{
+            padding: 0 20px;
+        }
+        #button-icon-box{
+
+            width: 250px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="Freepik.avif" alt="">
+                <div id="logotext">
+                    <h2>WordStream</h2>
+                    <h6><span>By</span>LOCALiQ</h6>
+                </div>
+            </div>
+            <ul>
+                <li>Blog</li>
+                <li>Free Tools</li>
+                <li>Resources</li>
+                <li>Solutions</li>
+                <li>About Us</li>
+            </ul>
+            <div id="button-icon-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button>Google Ads Grader</button>
+            </div>
+        </nav>
+    </header>
+    
+</body>
+</html>
